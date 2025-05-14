@@ -11,9 +11,14 @@ config_version=5
 [application]
 
 config/name="Tactics Game"
+run/main_scene="uid://c2swv7ctwi0c3"
 config/features=PackedStringArray("4.4", "Forward Plus")
 config/icon="res://icon.svg"
 
 [dotnet]
 
 project/assembly_name="Tactics Game"
+
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/BoardCreatorInspector/plugin.cfg")
