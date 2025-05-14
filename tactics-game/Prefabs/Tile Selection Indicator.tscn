@@ -1,0 +1,47 @@
+[gd_scene load_steps=3 format=3 uid="uid://cqq3k8u7i74s7"]
+
+[ext_resource type="Material" uid="uid://cobdgejmlvo8c" path="res://Materials/Selection.tres" id="1_trwk0"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_gipks"]
+
+[node name="TileSelectionIndicator" type="Node3D"]
+
+[node name="Stem" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.3, 0.5, 0, 0.4)
+material_override = ExtResource("1_trwk0")
+mesh = SubResource("BoxMesh_gipks")
+
+[node name="Stem2" type="MeshInstance3D" parent="."]
+transform = Transform3D(-4.37114e-09, 0, 0.3, 0, 0.1, 0, -0.1, 0, -1.31134e-08, 0.4, 0, -0.5)
+material_override = ExtResource("1_trwk0")
+mesh = SubResource("BoxMesh_gipks")
+
+[node name="Stem3" type="MeshInstance3D" parent="."]
+transform = Transform3D(-0.1, 0, -2.62268e-08, 0, 0.1, 0, 8.74228e-09, 0, -0.3, -0.5, 0, -0.4)
+material_override = ExtResource("1_trwk0")
+mesh = SubResource("BoxMesh_gipks")
+
+[node name="Stem4" type="MeshInstance3D" parent="."]
+transform = Transform3D(-4.37114e-09, 0, 0.3, 0, 0.1, 0, -0.1, 0, -1.31134e-08, -0.4, 0, 0.5)
+material_override = ExtResource("1_trwk0")
+mesh = SubResource("BoxMesh_gipks")
+
+[node name="Stem5" type="MeshInstance3D" parent="."]
+transform = Transform3D(-4.37114e-09, 0, 0.3, 0, 0.1, 0, -0.1, 0, -1.31134e-08, 0.4, 0, 0.5)
+material_override = ExtResource("1_trwk0")
+mesh = SubResource("BoxMesh_gipks")
+
+[node name="Stem6" type="MeshInstance3D" parent="."]
+transform = Transform3D(-0.1, 0, -2.62268e-08, 0, 0.1, 0, 8.74228e-09, 0, -0.3, 0.5, 0, -0.4)
+material_override = ExtResource("1_trwk0")
+mesh = SubResource("BoxMesh_gipks")
+
+[node name="Stem7" type="MeshInstance3D" parent="."]
+transform = Transform3D(-4.37114e-09, 0, 0.3, 0, 0.1, 0, -0.1, 0, -1.31134e-08, -0.4, 0, -0.5)
+material_override = ExtResource("1_trwk0")
+mesh = SubResource("BoxMesh_gipks")
+
+[node name="Stem8" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.3, -0.5, 0, 0.4)
+material_override = ExtResource("1_trwk0")
+mesh = SubResource("BoxMesh_gipks")
